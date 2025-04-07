@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+}
+.botao {
+    display: flex;
+    gap: 50px;
+}
+
+.home {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cardapio {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sobre_nos {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contato {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bem-vinde {
+    background-image: url(imagens/header.jpg);
+    position: relative;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_bem-vindo {
+    font-size: 70px;
+    color: white;   
+}
+.texto_bem-vindo {
+    color: white;
+    font-size: 20px;
+}
+
+.bem-vindo {
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.ver_cardapio{
+    background-color: orange;
+    padding: 10px  ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.titulo_cardapio {
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagem_pizza {
+    color: black;
+    background-color: #eaeaea; 
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.linha {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.imagem_pizza p {
+    margin-bottom: 45px;
+
+}
+
+.footer_sobre_nos{
+    background-image: url(imagens/footer.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_sobre_nos > h1 {
+    font-size: 70px;
+    text-align: center;
+    margin: 30px;
+    padding-top: 30px;
+}
+
+.footer_sobre_nos > p {
+    text-align: center;
+    margin: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer_contato {
+    text-align: center;
+}
+
+.footer_contato > h1 {
+    font-size: 70px;
+    margin: 30px;
+}
+
+.footer_contato > p {
+    margin: 30px;
+}
+.divisao {
+    display: flex;
+    text-align: left;
+    margin-left: 8rem;
+}
+.endereço {
+    flex: 1;
+}
+
+.telefone {
+    flex: 1;
+}
+
+.telefone > a{
+    color: orange;
+}
+
+.horario {
+    flex: 1;
+}
+
+.peça {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+}
+
+.copy {
+    background-color: #232323;
+    color: orange;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
