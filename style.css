@@ -44,7 +44,7 @@ header {
 }
 
 .bem-vinde {
-    background-image: url(imagens/header.jpg);
+    background-image: url(header.jpg);
     position: relative;
     height: 700px;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ text-align: center;
 }
 
 .footer_sobre_nos{
-    background-image: url(imagens/footer.jpg);
+    background-image: url(footer.jpg);
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
